@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>.
+
+
+    <title>MAC Table</title>
+  </head>
+
+  <body class="bg-gray-200 p-2">
+    <div class="flex border-2 border-cyan-500 h-screen">
+      <!-- SIDEBAR -->
+      <aside class="w-24 bg-indigo-900 p-3">
+        <a
+          href="home.html"
+          class="bg-cyan-400 text-black text-xs px-3 py-3 inline-block hover:bg-cyan-300 transition"
+        >
+          Go back
+        </a>
+      </aside>
+
+      <!-- MAIN -->
+      <main class="flex-1 bg-gray-300">
+        <!-- HEADER -->
+        <header class="bg-cyan-500 h-10 flex items-center justify-center">
+          <h1 class="font-bold">MAC table page</h1>
+        </header>
+
+        <!-- CONTENT -->
+        <section class="h-[90%] flex justify-center items-center">
+          <table class="bg-white border text-xs">
+            <tr class="border">
+              <th class="border px-2 py-1">Port</th>
+              <th class="border px-2 py-1">MAC Address</th>
+              <th class="border px-2 py-1">Status</th>
+            </tr>
+
+            <tr class="border">
+              <td class="border px-2 py-1">1</td>
+              <td class="border px-2 py-1">AA:BB:CC:DD:EE</td>
+              <td class="border px-2 py-1">Active</td>
+            </tr>
+
+            <tr class="border">
+              <td class="border px-2 py-1">2</td>
+              <td class="border px-2 py-1">BB:AA:CC:DD:EE</td>
+              <td class="border px-2 py-1">Active</td>
+            </tr>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
